@@ -12,21 +12,33 @@
   </section>
   <section class="sign-up-form">
     <form action="" method="post">
-      <input type="text" name="nameFirst" id="nameFirst">
-      <label for="nameFirst">First name</label>
-      <input type="text" name="nameLast" id="nameLast">
-      <label for="nameLast">Last name</label>
-      <input type="email" name="email" id="email">
-      <label for="email">Email</label>
-      <input type="text" inputmode="numeric" name="phoneNumber" id="phoneNumber">
-      <label for="phoneNumber">Phone number</label>
-      <input type="password" name="password" id="password">
-      <label for="password">Password</label>
-      <input type="password" name="passwordConfirm" id="passwordConfirm">
-      <label for="passwordConfirm">Confirm password</label>
-      <button type="submit">Create Account</button>
+      <div class="form-nameFirst">
+        <input type="text" name="nameFirst" id="nameFirst" maxlength="30" placeholder="" required>
+        <label for="nameFirst">First name </label>
+      </div>
+      <div class="form-nameLast">
+        <input type="text" name="nameLast" id="nameLast" maxlength="30" placeholder="" required>
+        <label for="nameLast">Last name </label>
+      </div>
+      <div class="form-email">
+        <input type="email" name="email" id="email" placeholder="" required>
+        <label for="email" data-help="bilbobaggins@gmail.com">Email </label>
+      </div>
+      <div class="form-phoneNumber">
+        <input type="text" inputmode="numeric" name="phoneNumber" id="phoneNumber" placeholder="" required>
+        <label for="phoneNumber">Phone number </label>
+      </div>
+      <div class="form-password">
+        <input type="password" name="password" id="password" placeholder="" required>
+        <label for="password">Password </label>
+      </div>
+      <div class="form-passwordConfirm">
+        <input type="password" name="passwordConfirm" id="passwordConfirm" placeholder="" required>
+        <label for="passwordConfirm">Confirm password </label>
+      </div>
+      <div class="form-submit"><button type="submit">Create Account</button></div>
+      <p>Already have an account? <a href="">Log in</a></p>
     </form>
-    <p>Already have an account? <a href="">Log in</a></p>
   </section>
 </body>
 </html>
