@@ -5,10 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sign Up Form</title>
   <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
   <section class="image">
-    <img src="/home/kaira/Pictures/allegory_of_vanity" alt="Allegory of vanity">
+    <img src="images/Kodo_Sawaki_Zazen.jpg" alt="Monk">
+    <p>Photo taken from <a href="https://en.wikipedia.org/wiki/Zen#/media/File:Kodo_Sawaki_Zazen.jpg">Wikipedia</a></p>
   </section>
   <section class="sign-up-form">
     <form action="" method="post">
@@ -22,7 +24,7 @@
       </div>
       <div class="form-email">
         <input type="email" name="email" id="email" placeholder="" required>
-        <label for="email" data-help="bilbobaggins@gmail.com">Email </label>
+        <label for="email" data-help="bilbo@gmail.com">Email </label>
       </div>
       <div class="form-phoneNumber">
         <input type="text" inputmode="numeric" name="phoneNumber" id="phoneNumber" placeholder="" required>
@@ -36,8 +38,8 @@
         <input type="password" name="passwordConfirm" id="passwordConfirm" placeholder="" required>
         <label for="passwordConfirm">Confirm password </label>
       </div>
-      <div class="form-submit"><button type="submit">Create Account</button></div>
-      <p>Already have an account? <a href="">Log in</a></p>
+      <div class="form-submit"><button type="button">Create Account</button></div>
+      <p>Already have an account? Login <a href="">here</a></p>
     </form>
   </section>
 </body>
